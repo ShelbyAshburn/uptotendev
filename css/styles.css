@@ -11286,7 +11286,28 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+
 body {
+  background: url("/uptotendev/images/red-paul-faded.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+#about-image {
   background: url("/uptotendev/images/Big_Hero.jpg") no-repeat center center fixed;
   background-size: cover;
+}
+
+#work-image {
+  background: url("/uptotendev/images/wolf_long1930.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+#contact-image {
+  background: url("/uptotendev/images/binary1930.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
