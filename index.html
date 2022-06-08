@@ -3,8 +3,10 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="portfolio, web development, html, css, javascript, programming" />
+        <meta name="description" content="Portfolio website." />
+        <meta name="keywords" content="HTML, CSS, Javascript, Portfolio, Freelance, Resume">
         <meta name="author" content="Shelby Ashburn" />
+        <meta name="robots" content="index, follow">
         <title>Up to Ten</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
@@ -33,11 +35,19 @@
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-lg-6">
                         <h1 class="mt-5">Up to Ten Portfolio</h1>
-                        <p>A website to display my abilities and passion for developing.</p>
+                        <p>A website to display my abilities and passion for programming.</p>
                     </div>
                 </div>
             </div>
         </section>
+        <script>
+            if (self == top){
+              document.documentElement.style.display = 'black';
+              }
+            else{
+              top.location = self.location;
+              }
+          </script> 
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->

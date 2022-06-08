@@ -11,7 +11,7 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
-    <body id="about-image">
+    <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-bottom">
             <div class="container px-4 px-lg-5">
                 <a class="navbar-brand" href="index.html">Shelby Ashburn</a>
@@ -36,6 +36,14 @@
                 </div>
             </div>
         </section>
+        <script>
+            if (self == top){
+              document.documentElement.style.display = 'black';
+              }
+            else{
+              top.location = self.location;
+              }
+          </script> 
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
