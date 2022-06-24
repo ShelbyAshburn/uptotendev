@@ -437,14 +437,7 @@ legend + * {
   -webkit-appearance: textfield;
 }
 
-/* rtl:raw:
-[type="tel"],
-[type="url"],
-[type="email"],
-[type="number"] {
-  direction: ltr;
-}
-*/
+
 ::-webkit-search-decoration {
   -webkit-appearance: none;
 }
@@ -639,6 +632,7 @@ progress {
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
+  
 }
 
 @media (min-width: 576px) {
@@ -3954,12 +3948,14 @@ textarea.form-control-lg {
 }
 .nav-link:hover, .nav-link:focus {
   color: #0a58ca;
+  transform: scale(1.05);
 }
 .nav-link.disabled {
   color: #6c757d;
   pointer-events: none;
   cursor: default;
 }
+
 
 .nav-tabs {
   border-bottom: 1px solid #dee2e6;
@@ -11298,3 +11294,10 @@ body {
   background-size: cover;
 }
 
+#linked-in{
+  font-family: var(--bs-body-font-family);
+  font-size: 2.2rem;
+  text-decoration: none;
+  color: #fff;
+
+}
