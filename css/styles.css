@@ -86,7 +86,7 @@ body {
   text-align: var(--bs-body-text-align);
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  /*-webkit-tap-highlight-color: rgba(0, 0, 0, 0);*/
 }
 
 hr {
@@ -162,8 +162,8 @@ abbr[data-bs-original-title] {
   -webkit-text-decoration: underline dotted;
           text-decoration: underline dotted;
   cursor: help;
-  -webkit-text-decoration-skip-ink: none;
-          text-decoration-skip-ink: none;
+  /*-webkit-text-decoration-skip-ink: none;*/
+          /*text-decoration-skip-ink: none;*/
 }
 
 address {
@@ -2232,7 +2232,7 @@ deleted
   background-color: #fff;
   border: 0;
   border-radius: 0;
-  overflow-anchor: none;
+  /*overflow-anchor: none;*/
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -4161,12 +4161,12 @@ deleted
 }
 
 body {
-  background: url("/uptotendev/images/red-paul-faded-1.jpg") no-repeat center center fixed;
+  background: url("/uptoten/images/red-paul-faded-1.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 
 #contact-image {
-  background: url("/uptotendev/images/binary1930.jpg") no-repeat center center fixed;
+  background: url("/uptoten/images/binary1930.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 
